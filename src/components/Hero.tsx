@@ -18,12 +18,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-light text-white mb-4 tracking-wide drop-shadow-lg">
-            Анна Светлова
+          <h1 className="text-5xl md:text-7xl mb-4 tracking-wide drop-shadow-lg text-[#000000] font-normal">
+            Анастасия Процук
           </h1>
           <div className="w-24 h-px bg-white/60 mx-auto mb-6"></div>
-          <p className="text-lg md:text-xl text-white/90 font-light tracking-wide">
-            Фотограф • Портреты • События • Природа
+          <p className="text-lg md:text-xl tracking-wide text-slate-800 font-light">
+            {" "}
+            Портреты • События • Природа
           </p>
         </div>
 

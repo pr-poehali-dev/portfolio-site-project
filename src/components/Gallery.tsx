@@ -85,7 +85,7 @@ const Gallery = () => {
               alt={`Фотография ${photo.id}`}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300 flex items-center justify-center">
+            <div className="absolute inset-0 group-hover:bg-opacity-20 transition-opacity duration-300 flex items-center justify-center bg-[#ffffff]">
               <Icon
                 name="Expand"
                 className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
