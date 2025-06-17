@@ -30,17 +30,11 @@ const Hero = () => {
 
         <div className="flex gap-4 justify-center flex-wrap">
           <Button
-            variant="outline"
             size="lg"
-            className="group relative overflow-hidden border-2 border-white/40 bg-transparent backdrop-blur-md text-white hover:text-gray-900 transition-all duration-500 px-8 py-3 rounded-full font-medium tracking-wide shadow-2xl hover:shadow-white/20"
+            className="bg-white text-gray-900 hover:bg-white/90 transition-all duration-300 shadow-lg"
           >
-            <div className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></div>
-            <Icon
-              name="Camera"
-              className="mr-3 relative z-10 transition-transform duration-300 group-hover:rotate-12"
-              size={20}
-            />
-            <span className="relative z-10">Посмотреть работы</span>
+            <Icon name="Camera" className="mr-2" size={20} />
+            <span>Посмотреть работы</span>
           </Button>
           <Button
             size="lg"
