@@ -1,16 +1,15 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/Hero";
+import Gallery from "@/components/Gallery";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="mb-4 color-black text-red-900 font-light text-4xl">
-          Добро пожаловать!
-        </h1>
-        <p className="text-[#000000] font-semibold">
-          тут будет отображаться ваш проект
-        </p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <Hero />
+      <Gallery />
+      <About />
+      <Contact />
     </div>
   );
 };
